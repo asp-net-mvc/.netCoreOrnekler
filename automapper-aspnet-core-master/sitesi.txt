@@ -1,0 +1,12 @@
+https://code-maze.com/automapper-net-core/
+
+
+diğer yazılar 
+
+https://medium.com/swlh/automapper-fundamentals-to-make-your-application-cleaner-98d7d218c863
+
+https://www.codementor.io/@zedotech/how-to-using-automapper-on-asp-net-core-3-0-via-dependencyinjection-zq497lzsq
+
+https://medium.com/@Xdeveloper/net-core-automapper-ve-mapster-kullan%C4%B1m%C4%B1-d3c071faaa4f
+
+https://www.c-sharpcorner.com/article/integrate-automapper-in-net-core-web-api2/
