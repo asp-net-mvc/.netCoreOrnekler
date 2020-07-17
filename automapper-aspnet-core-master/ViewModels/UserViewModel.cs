@@ -9,7 +9,25 @@ namespace AutoMapperDemo.ViewModels
 
         [Display(Name = "Country")]
         public string AddressCountry { get; set; }
+        
+        public string AddressCity { get; set; }
+        public string FullAdress { get; set; }
+
+
 
         public string Email { get; set; }
     }
 }
+
+
+//Id = 1,
+//                FirstName = "John",
+//                LastName = "Smith",
+//                Email = "John.Smith@gmail.com",
+//                Address = new Address()
+//{
+//    Country = "US"
+//                }
+
+
+

@@ -10,24 +10,42 @@
     <h4>UserViewModel</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FullName )
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FullName)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FullName )
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.AddressCountry)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.AddressCountry)
+            //
+            @Html.DisplayFor(model => model.AddressCity)
+
         </dd>
-        <dt class = "col-sm-2">
+
+        <dd class="col-sm-2">
+            full adresi burada
+
+
+        </dd>
+
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullAdress)
+        </dd>
+
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Email)
         </dt>
-        <dd class = "col-sm-10">
+
+
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
+
+
     </dl>
 </div>
 <div>

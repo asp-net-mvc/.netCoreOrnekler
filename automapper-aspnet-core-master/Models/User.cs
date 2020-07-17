@@ -7,6 +7,7 @@
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
+        public string Test { get; set; }
 
         public string Email { get; set; }
 
@@ -16,6 +17,13 @@
         {
             return $"{this.LastName}, {this.FirstName}";
         }
+
+
+        public string GetFullAdress()
+        {
+            return $"{this.Address.City} ---- {this.Address.Country}";
+        }
+
     }
 
 }

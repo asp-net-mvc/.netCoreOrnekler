@@ -23,3 +23,4 @@ namespace AutoMapperDemo.MappingConfigurations
     }
 
 }
+//Create a map
