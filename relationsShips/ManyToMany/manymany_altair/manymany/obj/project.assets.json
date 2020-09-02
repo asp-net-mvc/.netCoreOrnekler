@@ -5273,24 +5273,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stnc\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\bilgi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\manymany.csproj",
+      "projectUniqueName": "D:\\WEB\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\manymany.csproj",
       "projectName": "manymany",
-      "projectPath": "D:\\.net\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\manymany.csproj",
-      "packagesPath": "C:\\Users\\stnc\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\obj\\",
+      "projectPath": "D:\\WEB\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\manymany.csproj",
+      "packagesPath": "C:\\Users\\bilgi\\.nuget\\packages\\",
+      "outputPath": "D:\\WEB\\.netCoreOrnekler\\relationsShips\\ManyToMany\\manymany_altair\\manymany\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\stnc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\bilgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5366,7 +5367,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
