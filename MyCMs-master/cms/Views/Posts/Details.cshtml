@@ -1,0 +1,155 @@
+﻿@model cms.Models.Posts
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Posts</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.post_author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_date_gmt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_date_gmt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_excerpt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_excerpt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.comment_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.comment_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_slug)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_slug)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.menu_order)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.menu_order)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_mime_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_mime_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.comment_count)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.comment_count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.updated_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.updated_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.deleted_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.deleted_at)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

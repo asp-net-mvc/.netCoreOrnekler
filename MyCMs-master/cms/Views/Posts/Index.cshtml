@@ -1,0 +1,130 @@
+﻿@model IEnumerable<cms.Models.Posts>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.post_author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_date_gmt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_excerpt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.comment_status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_slug)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.menu_order)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_mime_type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.comment_count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.updated_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.deleted_at)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_date_gmt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_excerpt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.comment_status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_slug)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.menu_order)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_mime_type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.comment_count)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.created_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updated_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.deleted_at)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
